@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Anketa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="anketa.css">
+
+</head>
+<body>
+      
+     <header>
+          <div class="logo"> TOP G </div>
+          <div class="hamburger">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+          </div>
+          <nav class="nav-bar">
+           <ul>
+             <li>
+                 <a href="index.html" >Doma</a>
+             </li>
+             <li>
+                <a href="omileni.html" >Omileni</a>
+            </li>
+            <li>
+                <a href="galerija.html"  >Galerija</a>
+            </li> 
+            <li>
+                <a href="blog.html" >Blog</a>
+            </li> 
+            <li>
+                <a href="anketa.html" class="active" >Anketa</a>
+            </li>
+            <li>
+                <a href="kontakt.html" >Kontakt</a>
+            </li>
+
+
+           </ul>            
+ 
+          </nav>
+     </header>
+
+     <div class="heading">
+         <h1 id="head">Anketa</h1>
+     </div>
+
+     <form>
+
+   <div id="content1">
+      <label style="color:white">Ime</label><br><br>
+      <input type="name" name="name" placeholder="Vnesi ime" class="box"><br><br>
+
+      <label style="color:white">Email</label><br><br>
+      <input type="Email" name="Email" placeholder="Vnesi Email" class="box"><br><br>
+
+      <label style="color:white">Age (optional)</label><br><br>
+      <input type="age" name="age" placeholder="Vnesi tvoite godini" class="box"><br><br>
+
+      <label style="color:white">Stepen na obrazovanie</label><br><br>
+    
+      <div id="option1">
+          <select>
+              <option name ="Odberi" > Odberi</option>
+              <option value="osnovno obrazovanie">osnovno obrazovanie</option>
+              <option value="sredno obrazovanie">sredno obrazovanie</option>
+              <option value="dodiplomski studii">dodiplomski studii</option>
+              <option value="postdiplomi studii">postdiplomi studii</option>
+              <option value="doktorski studii">doktorski studii</option>
+          </select>
+
+
+     </div> 
+    <br> 
+    
+       
+
+     
+    <label id="head1" style="color:white" >Oceni ja mojata Gallerija  <br><br>
+    <input style="color:white" type="radio" name="radio" class="larger"  > Sovrsena<br><br>
+    <input type="radio" name="radio" class="larger">Dobra<br><br>
+    <input type="radio" name="radio" class="larger">Mozese i podobro<br><br>
+    <input type="radio" name="radio" class="larger">Treba nov <br><br>
+</label>
+<br><br>
+<label style="color:white"> Oceni go mojot Blog</label><br>
+<br><br>
+ <div id="content2">
+   <input type="checkbox" name="checkbox" class="larger"><label style="color:white">Sovrsen</label><br><br>
+   <input type="checkbox" name="checkbox" class="larger"><label style="color:white">Dobar</label><br><br>
+   <input type="checkbox" name="checkbox" class="larger"><label  style="color:white">Trebase povekje tekst</label><br><br>
+   <input type="checkbox" name="checkbox" class="larger"><label  style="color:white">Trebase povekje temi</label><br><br>
+   <input type="checkbox" name="checkbox" class="larger"><label  style="color:white">Trebase poubav design</label><br><br>
+
+   
+   <label id="head2" style="color:white">Nekoj comment ili predlozi ?</label><br><br>
+   <textarea placeholder="Vnesi ovde..."></textarea>
+   <button><h3>Submit</h3></button>
+
+
+ 
+   
+
+ </div>
+ <br></br>
+ <br></br>
+ <br></br>
+ 
+ </form>
+
+   
+</body>
+</html>

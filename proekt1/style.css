@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+    font-family:"Google Sans Regular";
+    box-sizing: border-box;
+}
+body{
+    background: url(ibi.jfif) ;
+    height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+     width:  100%;
+     height: 80px;
+     background-color: #11101b;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 100px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold ;
+    color:#fefefe
+
+}
+
+.hamburger{
+   
+    display: none;
+
+}
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    display: block;
+    color:white;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius:50px;
+    transition:0.2s;
+    margin:0 5px; 
+}
+.nav-bar ul li a:hover {
+  color: #11101b;
+  background-color: white;
+}
+.nav-bar ul li a.active {
+    color: #11101b;
+    background-color: white;
+}
+
+.cv{
+    display: flex;
+    
+}
+.tekstdoma{
+    color: white;
+     font-size: 250% ;
+      margin-left: auto;
+       margin-right: auto;
+}
+
+.section {
+     width: 75%;
+     margin: 75px auto;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-gap:25px;
+}
+
+.card{
+    background-color: #11101b;
+    box-shadow:12px 12px 2px 1px rgba(3, 3, 39, 0.2);
+}
+.image-section {
+    min-height: 350px;
+   
+    
+}
+.card .img-one{
+   background-image: url(metall.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   
+}
+
+.card .img-two{
+    background-image: url(pr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+ }
+
+ .card .img-three{
+    background-image: url(cls.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+ }
+
+ .content{
+     text-align: center;
+     padding:20px 15px;
+
+ }
+
+ .content h2{
+     letter-spacing: 2px;
+      color: #c9c9c9;
+ }
+.content p{
+    font-size: large;
+    color :white;
+    margin: 15px 0px;
+}
+.content a{
+    font-family: sans-serif ;
+    text-decoration : none;
+    font-size: 16px ;
+    color: #222;
+    letter-spacing: 2px;
+    display: inline-block;
+    background-color: #d6c954;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.content a:hover {
+    background-color: #87803d;
+    transition: 1s ease;
+}
+
+.contact {
+     position: relative;
+     min-height: 100vh;
+     padding: 50px 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     
+}
+
+.contact .cont {
+     max-width: 800px;
+     text-align: center;
+}
+
+.contact .cont h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.contain {
+    width: 100%;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top : 30px;
+}
+
+.contain .contactInfo {
+    width : 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+ .contain .contactInfo .box{
+     position : relative;
+     padding : 20px 0;
+     display: flex;
+
+}
+
+.contain .contactInfo .box .icon {
+    min-width : 60px;
+    height: 60px;
+    background: #fff ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.contain .contactInfo .box .text {
+
+    display :flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color:#fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+ 
+.contactform{
+     width: 40%;
+     padding: 40px;
+     background-color: white;
+}
+.contactform h2 {
+    font-size: 30px;
+    color:#333;
+    font-weight: 500;
+
+}
+.contactform .inputBox {
+     position: relative;
+     width: 100%;
+     margin-top:10px ;
+
+}
+.contactform .inputBox input ,
+.contactform .inputBox textarea{
+     width: 100%;
+    padding:5px 0;
+    font-size: 16px;
+    margin:10px 0;
+    border:none;
+    border-bottom: 2px solid #333;
+   outline: none ;
+   resize:none;
+}
+.contactform .inputBox span {
+     position: absolute;
+     left:0;
+     padding:5px 0;
+     font-size: 16px;
+     margin:10px 0;
+     pointer-events: none;
+     transform: 0.5s;
+     color : #666;
+
+}
+
+.contactform .inputBox input:focus~ span,
+.contactform .inputBox input:valid~ span,
+.contactform .inputBox textarea:focus~ span,
+.contactform .inputBox textarea:focus~ span
+{
+    color : #e91e63;
+    font-size:12px;
+    transform:translateY(-20px);
+}
+
+.contactform .inputBox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: white;
+    border:none;
+    cursor:pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.kontejn {
+    position: relative;
+    min-height: 100vh;
+   
+}
+.kontejn h1 {
+      font-size: 40px ;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: normal;
+      margin-top: 4%;
+      background:#11101b ;
+      padding: 15px;
+      color: white;
+      text-align: center;
+      text-transform: capitalize;
+}
+.kontejn .image-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.kontejn .image-container .image{
+    height: 250px;
+    width: 350px;
+    border: 5px solid #fff;
+    box-shadow: hidden ;
+    cursor: pointer;
+}
+
+.kontejn .image-container .image img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    transition: .2s linear;
+
+}
+.kontejn .image-container .image:hover img{
+    transform: scale(1.1);
+}
+
+.kontejn .popup-image{
+  position: fixed;
+  top:0;
+  left:0;
+ background: rgba(0, 0,0 , 9) ;
+  height: 100%;
+ width: 100%;
+  z-index: 100;
+  display: none;
+}
+
+.kontejn .popup-image span{
+    position: absolute;
+    top:0;
+    right:10px;
+    font-size:60px;
+    font-weight: bolder;
+    color : #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.kontejn .popup-image img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border: 5px solid #fff;
+    border-radius: 5px;
+    width: 450px;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+sans:wght@6000&display=swap');
+
+.like_btn {
+    margin-left: 30%;
+    margin-bottom: 80px;;
+   
+    padding: 10px 15px;
+    background:#0080ff ;
+    font-size: 18px;
+    font-family: "Open Sans",sans-serif;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+    color:#e8efff;
+    cursor: pointer;
+}
+
+.kontii {
+    
+    width: 600px;
+    border: 2px solid #333;
+    padding: 15px 10px;
+    background-color: white;
+}
+
+.kontii h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+textarea{
+    height:20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #aaa;
+    background-color: white;
+    margin-bottom: 10px;
+    resize: none;
+    outline: none;
+    transition: .5s;
+
+}
+
+input[type="submit"],button{
+    padding: 10px 15px;
+    border:none;
+    outline: none;
+    border-radius: 5px ;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+input[type="submit"]{
+    color: #fff;
+    background-color: #273c75 ;
+}
+button{
+     color:#333;
+     background-color: white;
+}
+.btn{
+    display:none;
+}
+
+
+.aaa{
+    display: flex;
+    flex-wrap: wrap;
+ 
+    margin-bottom: 1rem;
+    
+}
