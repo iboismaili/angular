@@ -1,0 +1,57 @@
+table {
+
+    margin-left: 360px;
+    
+    background-color: #dddddd;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  body {
+    background-image: url("cigare.jfif");
+  }
+
+  .naslov {
+      background-color: white;
+      color: rgb(0, 0, 104);
+      left: 40%;
+      position: relative;
+      width: fit-content;
+      font-size: 300%;
+  }
+
+  .zavnes {
+    background-color: #dddddd;
+    color:rgb(0, 0, 104);
+    left: 40%;
+    position: relative;
+    width: fit-content;
+    font-size: 200%;
+  }
+  .vnimavaj {
+
+    background-color: #dddddd;
+    color:rgb(0, 0, 104);
+    left: 5%;
+    position: relative;
+    width: fit-content;
+    font-size: 250%;
+  }
+  input{
+      margin-left: 650px;
+      height: 30px;
+      width: 150px;
+  }
